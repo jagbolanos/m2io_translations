@@ -2,7 +2,7 @@
     "root": {
         "top_menu": {
             "dashboard": "Dashboard",
-            "trade": "Trade",
+            "trade": "Canje",
             "account": "Cuenta",
             "login_register": "Login/Registro",
             "logout": "Salir"
@@ -17,8 +17,8 @@
         "alerts": {
             "connecting": "Conectando al servidor.",
             "bad_username_pw": "Usuario o clave incorrecta.",
-            "reset_sent": "Check your email. Contact customer support for further assistance.",
-            "enter_new_password": "Great! Now just enter your new password and we'll be all set."
+            "reset_sent": "Verifica tu correo electrónico. Contacta a servicio al cliente para ayuda adicional.",
+            "enter_new_password": "!Excelente! Ahora solo debes ingresar tu nueva clave y estarás listo."
         },
         "buttons": {
             "buy": "Comprar",
@@ -52,9 +52,9 @@
                 "last_minute": "Último minuto"
             },
             "balances": {
-                "available_to_trade": "AVAILABLE TO TRADE",
-                "low_margin": "LOW MARGIN",
-                "high_margin": "HIGH_MARGIN"
+                "available_to_trade": "DISPONIBLE PARA CANJE",
+                "low_margin": "BAJO MÁRGEN",
+                "high_margin": "ALTO MÁRGEN"
             },
             "titles": {
                 "buy": "Comprar",
@@ -71,13 +71,13 @@
                 "vwap": "VWAP",
                 "volume": "Volumen",
                 "last": "Last",
-                "bid": "Bid",
-                "bids": "BIDS",
-                "ask": "Ask",
-                "asks": "ASKS",
-                "recent_trades": "Recent Trades",
-                "order_book": "Order Book",
-                "time": "Time"
+                "bid": "Ofrecer",
+                "bids": "OFERTAS",
+                "ask": "Pedir",
+                "asks": "PEDIDOS",
+                "recent_trades": "Canjes Recientes",
+                "order_book": "Libro de Órdenes",
+                "time": "Hora"
             },
             "fields": {
                 "BUY": "COMPRA",
@@ -96,7 +96,7 @@
                 "price": "Precio",
                 "quantity": "Cantidad",
                 "contract": "Contrato",
-                "timestamp": "Timestamp",
+                "timestamp": "Marca de Tiempo",
                 "buy_sell": "Compra/Venta",
                 "my_contracts": "Mis Contratos",
                 "active_contracts": "Contratos Activos"
@@ -106,13 +106,13 @@
                 "SELL": "VENTA"
             },
             "alerts": {
-                "no_orders": "No hay orden abiertas"
+                "no_orders": "No hay ordenes abiertas"
             }
         },
         "account": {
             "pages": {
                 "profile": "Información de Usuario",
-                "funding_history": "Funding and History",
+                "funding_history": "Fondos e Historial",
                 "audit": "Auditoría",
                 "compliance": "Cumplimiento"
             },
@@ -134,14 +134,14 @@
             },
             "audit": {
                 "titles": {
-                    "timestamp": "Timestamp",
+                    "timestamp": "Marca de Tiempo",
                     "my_hash": "Mi Hash",
-                    "assets": "Assets",
-                    "liabilities": "Liabilities",
+                    "assets": "Activos",
+                    "liabilities": "Pasivos",
                     "id": "ID",
                     "amount": "Cantidad"
                 },
-                "select": "Select an asset"
+                "select": "Seleccionar un Activo"
             },
             "compliance": {
                 "titles": {
@@ -191,12 +191,12 @@
                     "note": "Nota"
                 },
                 "transaction_types": {
-                    "Fee": "Fee",
-                    "Trade": "Trade",
+                    "Fee": "Cuota",
+                    "Trade": "Canje",
                     "Transfer": "Transferir",
                     "Deposit": "Depositar",
                     "Adjustment": "Ajustes",
-                    "Clearing": "Clearing"
+                    "Clearing": "Liquidación"
                 },
                 "hit_request": "Favor presionar 'Solicitar' para bajar las transacciones",
                 "buttons": {
@@ -212,7 +212,7 @@
                         "amount": "Cantidad a Retirar",
                         "crypto_address": "Dirección",
                         "confirm_crypto_address": "Confirmar Dirección",
-                        "wire_to_bank": "Wire to this bank account",
+                        "wire_to_bank": "Girar a esta cuenta de banco",
                         "bank_name": "Nombre del Banco",
                         "bank_address": "Dirección del Banco",
                         "bank_swift": "Swift/ABA del Banco",
